@@ -83,21 +83,20 @@ h3 {
 }
 
 .navegacion-principal {
-
+    width: 100%;
     display: inline-flex;
     flex-direction: column;
     /*justify-content sirve para las filas(row) y align-items sirve para las columnas*/
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-weight: bold;
     font-size: 2rem;
     /* alinea los items cuando la página esta en 760px*/
     align-items: center;
-
 }
 
-/* media cueri, hover, responsive, flex, 06-11-2023 */
+/* media queri, hover, responsive, flex, 06-11-2023 */
 
-.navegacion-principal a {
+.navegacion-principal a{
     padding: 1rem;
     color: var(--blanco);
     text-decoration: none;
